@@ -1,24 +1,26 @@
 # search-CEP
 
-used API "requests"
-
 <a href="https://pypi.org/project/requests/">
-  <img src="https://img.shields.io/pypi/v/validate-docbr.svg" alt="latest release" />
+  <img src="https://img.shields.io/badge/pypi-2.31.0-blue" alt="latest release" /> <br>
 </a>
 
-# validate CPF and CNPJ
+### used API "requests"
+To import the package that can be used to work with regular expressions.
 
-Pacote Python para validação de documentos brasileiros.
-
-Para instalar o pacote:
 ```sh
 pip install requests
 ```
-A documentação do pacote [clicando aqui](https://alvarofpp.github.io/validate-docbr/)
 
-## Testes
-Para realizar os testes basta executar o seguinte comando:
-
-```shell
-coverage run -m unittest discover tests && coverage report -m
+## Example:
+```python
+>>> import requests
+>>> r = requests.get("https://api.github.com")
+>>> print(r)
+200
 ```
+
+### 📖 Documentation: <br>
+[link 1](https://requests.readthedocs.io/en/latest/) <br>
+[link 2](https://realpython.com/python-requests/)
+
+### Access the requests repository [here](https://github.com/psf/requests)
